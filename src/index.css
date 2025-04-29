@@ -6,13 +6,15 @@
 }
 
 body {
-    font-family: 'Beelefair';
+    font-family: 'Bellefair';
     background-color: #edcfcc;
 }
 
 .container {
     margin: 0px;
     background-color: #f5f5ed;
+    box-shadow: 0px 1px 20px black;
+    height: 100vh;
 }
 
 .header {
@@ -42,7 +44,6 @@ span {
     padding: 0 20px;
 }
 
-
 .title {
     text-align: center;
     width: 99%;
@@ -50,9 +51,9 @@ span {
     font-weight: 700;
 } 
 .description {
-    align-items: center;
     text-align: center;
-    width: 99%;
+    width: 580px;
+    margin: 20px auto;
     font-size: 18px;
 }
 
