@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+
+body {
+    font-family: 'Beelefair';
+    background-color: #edcfcc;
+}
+
+.container {
+    margin: 0px;
+    background-color: #f5f5ed;
+}
+
+.header {
+    width: 99%;
+    display: inline-block;
+    font-size: 0;
+}
+span {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-weight: bold;
+    white-space: none;
+}
+
+.logoname {
+    font-size: 20px;
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+}
+.navbar{
+    font-size: 20px;
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+    padding: 0 20px;
+}
+
+
+.title {
+    text-align: center;
+    width: 99%;
+    font-size: 36px;
+    font-weight: 700;
+} 
+.description {
+    align-items: center;
+    text-align: center;
+    width: 99%;
+    font-size: 18px;
+}
+
+ul > * {
+    display: inline-block;
+}
+li {
+    text-decoration: none;
+    color: black;
+}
+li a {
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+    color: white;
+    border-radius: 25px;
+    width: 150px;
+    background-color: black;
+}
+
+p {
+    margin-bottom: -20px;
+}
